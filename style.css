@@ -1,0 +1,464 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body
+{
+    /* background-color:#410606; */
+   /* background-image: url("free-travel-wallpaper-background-nyis8xlyhu00y5ym.jpg");  */
+    color: white;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center center;
+}
+
+.container
+{
+    height: 100px;
+    width: auto;
+    position: fixed;
+    top: 3%;
+    
+    left: 40%;
+    /* background-color: aqua; */
+    align-content: center;
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    text-shadow: 3px 3px 4px #691111;
+    /* float:calc(10px); */
+    float:inline-end;
+}
+
+.container a
+{
+    text-decoration: none;
+    color: white;
+    font-size: 22px;
+}
+
+a:hover{
+    color: #691111;
+    text-shadow: 5px 5px 6px rebeccapurple;
+}
+
+/* a:active
+{
+    text-shadow: 5px 5px 6px rebeccapurple;      for ative link
+    color: aqua;
+    
+} */
+
+.logo img
+{
+    position: fixed;
+    top: 2%;
+    left: 5px;
+    height: 55px;
+    width: 80px;
+    cursor: pointer;
+}
+
+.triptext
+{
+    position: fixed;
+    top:3%;
+    cursor: pointer;
+    font-size: 2em;
+    left:5%;
+    animation-name: animate;
+    animation-duration: 2s;
+}
+
+.represent
+{
+    
+    align-content: center;
+    display: flex;
+    justify-content: center;
+    /* background-image: url("185289.jpg"); */
+    background-image: url("free-travel-wallpaper-background-nyis8xlyhu00y5ym.jpg"); 
+    opacity: ;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center center;
+    height: 100vh;
+    width: 100%;
+}
+.logo2
+{
+    height: 300px;
+    width: 500px;
+    top: 40%;
+    position: relative;
+}
+
+.searchdata
+{
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    background-image: url("search.jpg");
+    height: 500px;
+    height: 100vh;
+    width: 100%;
+    /* background-color: aqua; */
+}
+
+.search
+{
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    border-radius: 10px 10px 10px 10px;
+    height:100vh;
+    width: 100%;
+    /* box-shadow: 20px 20px 10px silver; */
+    background-color: transparent;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center center;
+    /* background-image: url("16123450839_22d0b4e29a_b.jpg"); */
+}
+
+input[type="search"]
+{
+    background-color: white;
+    font-size: large;
+    box-shadow: 9px 9px 9px black;
+    color: black;
+    text-shadow: 1px 1px 2px black;
+    height: 50px;
+    width: 550px;
+    border-radius: 20px;
+    text-align: center;
+    transition-duration: 1s;
+    transition-timing-function: ease-in-out;
+    
+    border-color: transparent;
+    transition-property:all;        
+}
+
+
+input[type="search"]:hover
+{
+    border-color: transparent;
+    height: 60px;
+    width: 600px;
+    box-shadow: -8px -8px 10px black;
+}
+
+input[type="submit"]
+{
+    height: 50px;
+    width: 70px;
+    margin-left: 30px;
+    box-shadow: 9px 9px 9px black;
+    border-radius: 20px;
+    color: black;
+    font-size: 15px;
+    border-color: transparent;
+    font-weight: lighter;
+    text-shadow: 1px 1px 2px white;
+    background-color:white;
+}
+
+input[type="submit"]:hover
+{
+    height: 60px;
+    width: 100px;
+    box-shadow: -9px -9px 9px black;
+    transition-duration: 1s;
+}
+
+/* service data */
+
+.servicedata
+{
+    width: 100%;
+    height: 100vh;
+     /* background-image: url("BGGG.jpg");  */
+     background-image: url("travel-wallpaper-0045-2048x1280.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed; 
+}
+.servicedata h1
+{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-weight: 600;
+    position: relative;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.row
+{
+    
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 30px;
+    /* box-shadow: 10px 10px 7px blue; */
+}
+.service:hover
+{
+    /* background:blue; */
+    color: #fff;
+    transform: scale(1.05);
+    
+    transition-duration: 1s;
+    transition-timing-function: ease-in-out;
+    transition-property:all;
+    
+}
+.service
+{
+    margin-left: 15px;
+    margin-top: 30px;
+    /* text-shadow: 3px 3px 4px white; */
+    color: wheat;
+    
+}
+
+.service img
+{
+    height: 50px;
+    width:80px ;
+    /* border: 1px solid black; */
+    /* box-shadow: 5px 5px 6px black; */
+}
+/* ABOUT Section */
+
+.about
+{
+    height: 100vh;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    width: 100%;
+ background-image: url("abbbb.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.about h1
+{
+    text-align: center;
+    font-weight: bold;
+}
+.info
+{
+    display: grid;
+    grid-template-columns:repeat(3,1fr);
+    grid-gap: 10px;
+}
+.privacy h2
+{
+    color: white;
+    margin-top: 10%;
+    font-weight: bolder;
+    
+}
+.privacy h3
+{
+    color:black;
+    margin-top: 5%;
+    font-size: larger;
+}
+.privacy p
+{
+    color: black;
+    margin-top: 9px;
+}
+.privacy
+{
+    margin-left: 30px;
+}
+.privacy:hover
+{
+    transform: scale(1.1);
+}
+
+/* contact section */
+
+.contact
+{
+    height: 100vh;
+    width: 100%;
+    
+}
+.contact h1
+{
+    color: black;
+    text-align: center;
+
+}
+
+.fa {
+    padding: 15px;
+    font-size: 30px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    border-radius: 90px;
+  }
+  
+  .fa:hover {
+      opacity: 1;
+  }
+  
+  .fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
+  
+  .fa-twitter {
+    background: #55ACEE;
+    color: white;
+  }
+  
+  .fa-google {
+    background: #dd4b39;
+    color: white;
+  }
+  
+  .fa-linkedin {
+    background: #007bb5;
+    color: white;
+  }
+  
+
+  
+  .fa-instagram {
+    background: #125688;
+    color: white;
+  }
+
+  /* contact section */
+
+.contact
+{
+    /* height: 50vh;
+    width: 100%; */
+    font-family: cursive;
+    background-image: url("1234567.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+  
+}
+.social
+{
+    /* margin-top: 18%;
+    margin-left: 38%; */
+    margin-left: 38%;
+}
+.contact h1
+{
+    
+    color: white;
+    font-family: fantasy;
+}
+
+.main-block {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* min-height: 100vh; */
+    /* background: #1c87c9; */
+    }
+    form {
+    padding: 25px;
+    margin: 25px;
+    /* box-shadow: 0 2px 5px #f5f5f5;  */
+    /* background: #f5f5f5;  */
+    }
+    .fas {
+    margin: 25px 10px 0;
+    font-size: 72px;
+    color: #fff;
+    }
+    .fa-envelope {
+    transform: rotate(-20deg);
+    }
+    .fa-at , .fa-mail-bulk{
+    transform: rotate(10deg);
+    }
+    input, textarea {
+    width: calc(100% - 18px);
+    padding: 8px;
+    margin-bottom: 20px;
+    /* border: 1px solid #1c87c9; */
+    outline: none;
+    }
+    input::placeholder {
+    color: #666;
+    }
+    button {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    background: #1c87c9; 
+    font-size: 16px;
+    font-weight: 400;
+    color: #fff;
+    }
+    button:hover {
+    background: #2371a0;
+    } 
+    @media (min-width: 568px) {
+    .main-block {
+    flex-direction: row;
+    }
+    .left-part, form {
+    width: 50%;
+    }
+    .fa-envelope {
+    margin-top: 0;
+    margin-left: 20%;
+    }
+    .fa-at {
+    margin-top: -10%;
+    margin-left: 65%;
+    }
+    .fa-mail-bulk {
+    margin-top: 2%;
+    margin-left: 28%;
+    }
+    }
+
+    .contactlogo{
+        margin-top: 150px;
+        height: 400px;
+        width: 700px;
+    }
+
+    .copyright h4
+    {
+        margin-top: 25px;
+        color: white;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        margin-left: 40%;
+    }
+    .follow
+    {
+        margin-left: 45%;
+        padding-bottom: 10px;
+    }
+    form h1
+    {
+        color: white;
+    }
+    .contactus
+    {
+        margin-bottom: 3%;
+    }
+    
